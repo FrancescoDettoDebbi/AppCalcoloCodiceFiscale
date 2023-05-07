@@ -6,8 +6,8 @@ class CityFinder:
     db_name = "catastale"
     db = mysql.connector.connect(
         host='localhost',
-        user='Franco',
-        passwd="FrancoDiMarte89!",
+        user='',
+        passwd='',
         database=db_name
     )
     cursor = db.cursor()
