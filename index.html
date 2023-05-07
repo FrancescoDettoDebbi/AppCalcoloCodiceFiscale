@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Applicazione Web</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="title-container">
+    <h1> CALCOLA IL CODICE FISCALE </h1>
+</div>
+<div class="super-container">
+    <div class="container">
+        <div class="grid-element">
+            <label for="first-name-field"> NOME: </label>
+            <input type="text" id="first-name-field" placeholder="Digita il nome">
+        </div>
+
+        <div class="grid-element">
+            <label for="last-name-field"> COGNOME: </label>
+            <input type="text" id="last-name-field" placeholder="Digita il cognome">
+        </div>
+
+        <div class="grid-element">
+            <label for="sesso"> SESSO: </label>
+            <select id="sesso">
+                <option value="true">
+                    Maschio
+                </option>
+                <option value="false">
+                    Femmina
+                </option>
+            </select>
+        </div>
+
+        <div class="grid-element">
+            <label for="data-nascita"> DATA DI NASCITA: </label>
+            <input type="date" id="data-nascita">
+        </div>
+
+        <div class="grid-element">
+            <label for="input-field"> COMUNE: </label>
+            <input type="text" id="input-field" placeholder="Digita il comune">
+        </div>
+
+        <button onclick="calcola()">CALCOLA!</button>
+</div>
+</div>
+
+
+<div class="title-container">
+    <h1 id="cod-fiscale"></h1>
+</div>
+
+<div class="menu-container" id="comuni-menu">
+        <ul id="comuni">
+        </ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

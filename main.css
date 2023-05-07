@@ -1,0 +1,62 @@
+body{
+  background-color: #222;
+  font-family: Montserrat, Arial;
+  font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.title-container {
+    text-align: center;
+    color: #fafafa;
+}
+
+.super-container{
+    display: flex;
+}
+
+.container{
+  display: grid;
+  max-width: 50rem;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  background-color: #444;
+  color: #fafafa;
+  border-radius: 2rem;
+  margin: auto;
+}
+
+.grid-element{
+    margin: 1rem;
+}
+
+input, select {
+    /*text-decoration: none;*/
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    font-family: Montserrat, Arial;
+    font-weight: bold;
+}
+
+select {
+  margin: 0.9rem;
+  margin-top: 1rem;
+}
+
+option {
+    font-weight: bold;
+}
+
+button{
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 1rem;
+    font-family: Montserrat, Arial;
+    background-color: #008a4e;
+    padding: 0.7rem;
+    margin: 0.7rem;
+}
+
+button, .menu-container{
+
+  color: white;
+}
