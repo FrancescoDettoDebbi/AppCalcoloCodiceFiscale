@@ -135,8 +135,8 @@ class CodiceFiscale:
     def __init__(self, nome, cognome, data, sesso, comune):
         self.db = mysql.connector.connect(
             host='localhost',
-            user='Franco',
-            passwd="FrancoDiMarte89!",
+            user='',
+            passwd="",
             database=self.db_name
         )
         self.my_cursor = self.db.cursor()
