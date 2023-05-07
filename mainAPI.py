@@ -2,7 +2,7 @@ import datetime
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from CodiceFiscale import CodiceFiscale
-from main import CityFinder
+from CityFinder import CityFinder
 
 app = FastAPI()
 origins = [
